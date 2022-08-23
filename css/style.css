@@ -232,3 +232,25 @@
     position: relative;
 }
 
+@media (max-width:280px) {
+    .cardimg1 {
+        width: 250px;
+    }
+
+    .project1, .project2, .project3 {
+        width: 250px;
+    }
+
+    .border {
+        width: 250px;
+    }
+    
+    .pos {
+        width: 250px;
+    }
+
+    .text1 {
+        width: 250px;
+    }
+}
+
