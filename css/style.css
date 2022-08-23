@@ -222,7 +222,7 @@
 
 .img-forest {
     background-image: url("/img/3069660626_w640_h640_3069660626.webp");
-    height: 500px;
+    height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
@@ -230,6 +230,8 @@
     background-size: cover;
     z-index: 1;
     position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
 }
 
 @media (max-width:280px) {
@@ -254,3 +256,284 @@
     }
 }
 
+@media (max-width:360px) {
+    .cardimg1 {
+        width: 250px;
+    }
+
+    .project1, .project2, .project3 {
+        width: 250px;
+    }
+
+    .border {
+        width: 250px;
+    }
+    
+    .pos {
+        width: 250px;
+    }
+
+    .text1 {
+        width: 250px;
+    }
+}
+
+.mt {
+    padding-top: 100px;
+}
+
+.ipad {
+    width: 600px;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+
+.iphone {
+    width: 400px;
+    position: absolute;
+    left: 670px;
+    top: 2550px;
+    z-index: 1000;
+}
+
+
+@media (max-width:1245px) {
+    .ipad {
+        width: 500px;
+        position: absolute;
+        left: 300px;
+        top: 290px;
+    }
+    
+    .iphone {
+        width: 300px;
+        position: absolute;
+        left: 630px;
+        top: 2680px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:1200px) {
+    .ipad {
+        width: 450px;
+        position: absolute;
+        left: 310px;
+        top: 325px;
+    }
+    
+    .iphone {
+        width: 250px;
+        position: absolute;
+        left: 630px;
+        top: 3500px;
+        z-index: 1000;
+    }
+}
+
+
+@media (max-width:1152px) {
+    .ipad {
+        width: 450px;
+        position: absolute;
+        left: 280px;
+        top: 325px;
+    }
+    
+    .iphone {
+        width: 250px;
+        position: absolute;
+        left: 600px;
+        top: 3550px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:993px) {
+    .ipad {
+        width: 450px;
+        position: absolute;
+        left: 200px;
+        top: 325px;
+    }
+    
+    .iphone {
+        width: 250px;
+        position: absolute;
+        left: 500px;
+        top: 3760px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:746px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 100px;
+        top: 420px;
+    }
+    
+    .iphone {
+        width: 200px;
+        position: absolute;
+        left: 350px;
+        top: 3810px;
+        z-index: 1000;
+    }
+}
+
+
+@media (max-width:613px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 60px;
+        top: 420px;
+    }
+    
+    .iphone {
+        width: 200px;
+        position: absolute;
+        left: 300px;
+        top: 3870px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:601px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 60px;
+        top: 420px;
+    }
+    
+    .iphone {
+        width: 200px;
+        position: absolute;
+        left: 300px;
+        top: 4370px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:500px) {
+    .ipad {
+        width: 300px;
+        position: absolute;
+        left: 30px;
+        top: 450px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 230px;
+        top: 4380px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:479px) {
+    .ipad {
+        width: 300px;
+        position: absolute;
+        left: 10px;
+        top: 450px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 210px;
+        top: 4500px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:445px) {
+    .ipad {
+        width: 300px;
+        position: absolute;
+        left: 10px;
+        top: 450px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 210px;
+        top: 4560px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:445px) {
+    .ipad {
+        width: 250px;
+        position: absolute;
+        left: 10px;
+        top: 490px;
+    }
+    
+    .iphone {
+        width: 150px;
+        position: absolute;
+        left: 190px;
+        top: 4620px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:391px) {
+    .ipad {
+        width: 250px;
+        position: absolute;
+        left: 10px;
+        top: 490px;
+    }
+    
+    .iphone {
+        width: 150px;
+        position: absolute;
+        left: 190px;
+        top: 4680px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:361px) {
+    .ipad {
+        width: 250px;
+        position: absolute;
+        left: 0px;
+        top: 490px;
+    }
+    
+    .iphone {
+        width: 150px;
+        position: absolute;
+        left: 160px;
+        top: 4680px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:281px) {
+    .ipad {
+        width: 230px;
+        position: absolute;
+        left: -10px;
+        top: 510px;
+    }
+    
+    .iphone {
+        width: 130px;
+        position: absolute;
+        left: 140px;
+        top: 4850px;
+        z-index: 1000;
+    }
+}
