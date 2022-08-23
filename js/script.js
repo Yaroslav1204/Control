@@ -9,5 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var elems2 = document.querySelectorAll('.parallax');
     var instances2 = M.Parallax.init(elems2, {});
+  });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, {});
   });
