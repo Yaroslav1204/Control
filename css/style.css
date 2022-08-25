@@ -497,12 +497,42 @@ body {
     display: flex;
 }
 
-.bor {
+.bor5 {
     width: 80px;
     border-bottom: 2px solid red;
 }
 
 .small {
     font-size: 13px;
+}
+
+.mr {
+    margin-right: 20px;
+}
+
+.map {
+    background-image: url("../img/461191129_w640_h640_karta-ukrainy-.webp");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.map2 {
+    z-index: 100;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
