@@ -383,7 +383,8 @@ body {
 }
 
 
-.content {  
+.content { 
+    width: 100%; 
     display: grid;
     grid-template-areas: 
     'item1 items1 items2 item2 item3 item3 item4 item4'
@@ -392,6 +393,8 @@ body {
 
 .item1 {
     grid-area: item1;
+    height: 310px;
+    width: 400px;
 }
 
 .item1 img {
@@ -536,3 +539,43 @@ body {
     justify-content: center;
 }
 
+
+.bold {
+    font-weight: bold;
+}
+
+.op {
+    color: rgba(128, 128, 128, 0.36);
+    font-weight: bolder;
+}
+
+.btn2 {
+    position: absolute;
+    left: 222px;
+    top: 1px;
+    background-color: #95E1D3 !important;
+    border: 2px solid #95E1D3 !important;
+
+}
+
+.btn2:hover {
+    background-color: #3ab19b !important;
+    border: 2px solid #3ab19b !important;
+}
+
+.form input {
+    border: 2px solid #95E1D3;
+}
+
+.form {
+    position: relative;
+}
+
+.mt1 {
+    margin-top: 50px;
+}
+
+.ml {
+    margin-left: 20px;
+    font-size: 14px;
+}
