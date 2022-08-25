@@ -140,20 +140,6 @@
     padding: 50px;
 }
 
-@media (max-width:1244px) {
-    .cardimg1 {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
-    }
-
-    .title .creative {
-        font-size: 50px;
-    }
-    .title .welcome {
-        font-size: 60px;
-    }
-}   
 
 .containir {
     display: flex;
@@ -181,38 +167,6 @@
     color: white;
 }
 
-@media(max-width:1200px) {
-    .fon {
-        height: 384px;
-    }
-
-    .col1 {
-        border-top: 1px solid #B5EAE0;
-        border-bottom: 1px solid #B5EAE0;
-    }
-}
-
-@media(max-width:992px) {
-    .fon {
-        height: 565px;
-    }
-
-    .col1 {
-        border-top: 1px solid #B5EAE0;
-        border-bottom: 1px solid #B5EAE0;
-    }
-}
-
-@media(max-width:601px) {
-    .fon {
-        height: 940px;
-    }
-
-    .col1 {
-        border-top: 1px solid #B5EAE0;
-        border-bottom: 1px solid #B5EAE0;
-    }
-}
 
 .dflex {
     display: flex;
@@ -243,49 +197,7 @@
     margin-bottom: 100px;
 }
 
-@media (max-width:280px) {
-    .cardimg1 {
-        width: 250px;
-    }
 
-    .project1, .project2, .project3 {
-        width: 250px;
-    }
-
-    .border {
-        width: 250px;
-    }
-    
-    .pos {
-        width: 250px;
-    }
-
-    .text1 {
-        width: 250px;
-    }
-}
-
-@media (max-width:360px) {
-    .cardimg1 {
-        width: 250px;
-    }
-
-    .project1, .project2, .project3 {
-        width: 250px;
-    }
-
-    .border {
-        width: 250px;
-    }
-    
-    .pos {
-        width: 250px;
-    }
-
-    .text1 {
-        width: 250px;
-    }
-}
 
 .mt {
     padding-top: 100px;
@@ -302,257 +214,17 @@
     width: 400px;
     position: absolute;
     left: 670px;
-    top: 2550px;
+    top: 2680px;
     z-index: 1000;
-}
-
-
-@media (max-width:1245px) {
-    .ipad {
-        width: 500px;
-        position: absolute;
-        left: 300px;
-        top: 290px;
-    }
-    
-    .iphone {
-        width: 300px;
-        position: absolute;
-        left: 630px;
-        top: 2680px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:1200px) {
-    .ipad {
-        width: 450px;
-        position: absolute;
-        left: 310px;
-        top: 325px;
-    }
-    
-    .iphone {
-        width: 250px;
-        position: absolute;
-        left: 630px;
-        top: 3500px;
-        z-index: 1000;
-    }
-}
-
-
-@media (max-width:1152px) {
-    .ipad {
-        width: 450px;
-        position: absolute;
-        left: 280px;
-        top: 325px;
-    }
-    
-    .iphone {
-        width: 250px;
-        position: absolute;
-        left: 600px;
-        top: 3550px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:993px) {
-    .ipad {
-        width: 450px;
-        position: absolute;
-        left: 200px;
-        top: 325px;
-    }
-    
-    .iphone {
-        width: 250px;
-        position: absolute;
-        left: 500px;
-        top: 3760px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:746px) {
-    .ipad {
-        width: 350px;
-        position: absolute;
-        left: 100px;
-        top: 420px;
-    }
-    
-    .iphone {
-        width: 200px;
-        position: absolute;
-        left: 350px;
-        top: 3810px;
-        z-index: 1000;
-    }
-}
-
-
-@media (max-width:613px) {
-    .ipad {
-        width: 350px;
-        position: absolute;
-        left: 60px;
-        top: 420px;
-    }
-    
-    .iphone {
-        width: 200px;
-        position: absolute;
-        left: 300px;
-        top: 3870px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:601px) {
-    .ipad {
-        width: 350px;
-        position: absolute;
-        left: 60px;
-        top: 420px;
-    }
-    
-    .iphone {
-        width: 200px;
-        position: absolute;
-        left: 300px;
-        top: 4370px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:500px) {
-    .ipad {
-        width: 300px;
-        position: absolute;
-        left: 30px;
-        top: 450px;
-    }
-    
-    .iphone {
-        width: 190px;
-        position: absolute;
-        left: 230px;
-        top: 4380px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:479px) {
-    .ipad {
-        width: 300px;
-        position: absolute;
-        left: 10px;
-        top: 450px;
-    }
-    
-    .iphone {
-        width: 190px;
-        position: absolute;
-        left: 210px;
-        top: 4500px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:445px) {
-    .ipad {
-        width: 300px;
-        position: absolute;
-        left: 10px;
-        top: 450px;
-    }
-    
-    .iphone {
-        width: 190px;
-        position: absolute;
-        left: 210px;
-        top: 4560px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:445px) {
-    .ipad {
-        width: 250px;
-        position: absolute;
-        left: 10px;
-        top: 490px;
-    }
-    
-    .iphone {
-        width: 150px;
-        position: absolute;
-        left: 190px;
-        top: 4620px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:391px) {
-    .ipad {
-        width: 250px;
-        position: absolute;
-        left: 10px;
-        top: 490px;
-    }
-    
-    .iphone {
-        width: 150px;
-        position: absolute;
-        left: 190px;
-        top: 4680px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:361px) {
-    .ipad {
-        width: 250px;
-        position: absolute;
-        left: 0px;
-        top: 490px;
-    }
-    
-    .iphone {
-        width: 150px;
-        position: absolute;
-        left: 160px;
-        top: 4680px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width:281px) {
-    .ipad {
-        width: 230px;
-        position: absolute;
-        left: -10px;
-        top: 510px;
-    }
-    
-    .iphone {
-        width: 130px;
-        position: absolute;
-        left: 140px;
-        top: 4850px;
-        z-index: 1000;
-    }
 }
 
 .image img {
     width: 100%;
 }
 
-.comment {
 
+.comment {
+    margin-top: 100px;
 }
 
 .comment__items {
@@ -570,12 +242,6 @@
     color: #95E1D3;
     border: 5px solid #95E1D3;
     padding: 20px;
-}
-
-@media (max-width:490px) {
-    .block {
-        display: none;
-    }
 }
 
 .project4 {
@@ -696,134 +362,19 @@
 .icon__in__proj3:hover  {
     background-color: #F38181;
     border: 2px solid #F38181;
+} 
+
+ .small__gray {
+    font-size: 10px;
+    color: gray;
 }
 
-@media (max-width:330px) {
-
-    .project4, .project5, .project6 {
-        width: 250px;
-    }
-
-    .border4 {
-        width: 250px;
-    }
-    
-    .pos4 {
-        width: 250px;
-    }
-
-    .text4 {
-        width: 250px;
-    }
-
-    .border4:hover .text4 {
-        top: -10px;
-        background: linear-gradient(rgb(230, 100, 101, 0.8), rgb(250, 244, 66, 0.8));
-    }
-    
-    
-    .border4:hover img {
-        width: 250px;
-        left: -10px;
-        top: -10px;
-    
-    }
-
-    .border4:hover .icon__in__proj1 {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        top: 170px;
-        left: 30px;
-    }
-    
-    .border4:hover .icon__in__proj2 {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        top: 170px;
-        left: 60px;
-    }
-    
-    .border4:hover .icon__in__proj3 {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        top: 170px;
-        left: 90px;
-    }
-
-    .icon__in__proj1 , .icon__in__proj2, .icon__in__proj3 {
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        top: -150px;
-        border: 2px solid black;
-        padding: 10px;
-}
+.gray__bgc {
+    height: 200px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.16);
 }
 
-@media (max-width:385px) {
 
-    .project4, .project5, .project6 {
-        width: 250px;
-    }
 
-    .border4 {
-        width: 250px;
-    }
-    
-    .pos4 {
-        width: 250px;
-    }
 
-    .text4 {
-        width: 250px;
-    }
-
-    .border4:hover .text4 {
-        top: -10px;
-        background: linear-gradient(rgb(230, 100, 101, 0.8), rgb(250, 244, 66, 0.8));
-    }
-    
-    
-    .border4:hover img {
-        width: 250px;
-        left: -10px;
-        top: -10px;
-    
-    }
-
-    .border4:hover .icon__in__proj1 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: 170px;
-        left: 30px;
-    }
-    
-    .border4:hover .icon__in__proj2 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: 170px;
-        left: 100px;
-    }
-    
-    .border4:hover .icon__in__proj3 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: 170px;
-        left: 170px;
-    }
-
-    .icon__in__proj1 , .icon__in__proj2, .icon__in__proj3 {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: -150px;
-        border: 2px solid black;
-        padding: 10px;
-}
-}
