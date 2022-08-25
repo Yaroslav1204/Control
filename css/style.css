@@ -459,3 +459,50 @@ body {
     width: 400px;
 }
 
+
+.radius {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.text {
+    margin-left: 40px;
+}
+
+
+.author {
+    background-image: url("../img/nature-gori-doroga-chb-kholmi-peizazh-62408.jpeg");
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.author2 {
+    z-index: 100;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.66);
+    
+}
+
+.dflex2 {
+    display: flex;
+}
+
+.bor {
+    width: 80px;
+    border-bottom: 2px solid red;
+}
+
+.small {
+    font-size: 13px;
+}
+
