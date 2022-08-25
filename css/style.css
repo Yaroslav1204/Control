@@ -572,3 +572,249 @@
         display: none;
     }
 }
+
+.project4 {
+    width: 350px;
+    height: 370px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px;
+    background-color: #95E1D3;
+    overflow: hidden;
+}
+
+.border4 {
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    overflow: hidden;
+}
+
+.pos4 {
+    width: 350px;
+    height: 370px;
+    z-index: 0;
+    position: absolute;
+    left: 0px;
+}
+
+
+.text4 {
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 370px;
+    top: -10px;
+    left: -10px;
+    background-color: rgba(31, 30, 30, 0);
+}
+
+.border4:hover .text4 {
+    top: -10px;
+    background: linear-gradient(rgb(230, 100, 101, 0.8), rgb(250, 244, 66, 0.8));
+}
+
+
+.border4:hover img {
+    width: 350px;
+    height: 370px;;
+    left: -10px;
+    top: -10px;
+
+}
+
+.project5 {
+    width: 350px;
+    height: 370px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px;
+    background-color: #95E1D3;
+    overflow: hidden;
+}
+
+.project6 {
+    width: 350px;
+    height: 370px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px;
+    background-color: #95E1D3;
+    overflow: hidden;
+}
+
+
+
+
+
+.icon__in__proj1 , .icon__in__proj2, .icon__in__proj3 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -50px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.border4:hover .icon__in__proj1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 170px;
+    left: 90px;
+}
+
+.border4:hover .icon__in__proj2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 170px;
+    left: 160px;
+}
+
+.border4:hover .icon__in__proj3 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 170px;
+    left: 230px;
+}
+
+.icon__in__proj1:hover  {
+    background-color: rgba(104, 0, 0, 0.5);
+}
+
+.icon__in__proj2:hover  {
+    background-color: rgba(104, 0, 0, 0.5);
+}
+
+.icon__in__proj3:hover  {
+    background-color: rgba(104, 0, 0, 0.5);
+}
+
+@media (max-width:330px) {
+
+    .project4, .project5, .project6 {
+        width: 250px;
+    }
+
+    .border4 {
+        width: 250px;
+    }
+    
+    .pos4 {
+        width: 250px;
+    }
+
+    .text4 {
+        width: 250px;
+    }
+
+    .border4:hover .text4 {
+        top: -10px;
+        background: linear-gradient(rgb(230, 100, 101, 0.8), rgb(250, 244, 66, 0.8));
+    }
+    
+    
+    .border4:hover img {
+        width: 250px;
+        left: -10px;
+        top: -10px;
+    
+    }
+
+    .border4:hover .icon__in__proj1 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 170px;
+        left: 30px;
+    }
+    
+    .border4:hover .icon__in__proj2 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 170px;
+        left: 60px;
+    }
+    
+    .border4:hover .icon__in__proj3 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 170px;
+        left: 90px;
+    }
+
+    .icon__in__proj1 , .icon__in__proj2, .icon__in__proj3 {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: -150px;
+        border: 2px solid black;
+        padding: 10px;
+}
+}
+
+@media (max-width:385px) {
+
+    .project4, .project5, .project6 {
+        width: 250px;
+    }
+
+    .border4 {
+        width: 250px;
+    }
+    
+    .pos4 {
+        width: 250px;
+    }
+
+    .text4 {
+        width: 250px;
+    }
+
+    .border4:hover .text4 {
+        top: -10px;
+        background: linear-gradient(rgb(230, 100, 101, 0.8), rgb(250, 244, 66, 0.8));
+    }
+    
+    
+    .border4:hover img {
+        width: 250px;
+        left: -10px;
+        top: -10px;
+    
+    }
+
+    .border4:hover .icon__in__proj1 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 170px;
+        left: 30px;
+    }
+    
+    .border4:hover .icon__in__proj2 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 170px;
+        left: 100px;
+    }
+    
+    .border4:hover .icon__in__proj3 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 170px;
+        left: 170px;
+    }
+
+    .icon__in__proj1 , .icon__in__proj2, .icon__in__proj3 {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: -150px;
+        border: 2px solid black;
+        padding: 10px;
+}
+}
