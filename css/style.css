@@ -135,6 +135,11 @@
 
 }
 
+.cardimg1 {
+    margin: 30px;
+    padding: 50px;
+}
+
 @media (max-width:1244px) {
     .cardimg1 {
         display: flex;
@@ -649,7 +654,8 @@
     height: 60px;
     position: absolute;
     top: -50px;
-    border: 2px solid black;
+    border: 2px solid #FBE389;
+    background-color: #FBE389;
     padding: 10px;
 }
 
@@ -678,15 +684,18 @@
 }
 
 .icon__in__proj1:hover  {
-    background-color: rgba(104, 0, 0, 0.5);
+    border: 2px solid #F38181;
+    background-color: #F38181;
 }
 
 .icon__in__proj2:hover  {
-    background-color: rgba(104, 0, 0, 0.5);
+    background-color: #F38181;
+    border: 2px solid #F38181;
 }
 
 .icon__in__proj3:hover  {
-    background-color: rgba(104, 0, 0, 0.5);
+    background-color: #F38181;
+    border: 2px solid #F38181;
 }
 
 @media (max-width:330px) {
