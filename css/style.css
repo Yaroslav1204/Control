@@ -143,6 +143,11 @@ body {
     padding: 50px;
 }
 
+.cardimg2 {
+    margin: 30px;
+    padding: 50px;
+}
+
 
 .containir {
     display: flex;
@@ -217,7 +222,7 @@ body {
     width: 400px;
     position: absolute;
     left: 670px;
-    top: 2680px;
+    top: 2580px;
     z-index: 1000;
 }
 
@@ -293,8 +298,6 @@ body {
 
 
 .border4:hover img {
-    width: 350px;
-    height: 370px;;
     left: -10px;
     top: -10px;
 
@@ -394,72 +397,77 @@ body {
 .item1 {
     grid-area: item1;
     height: 310px;
-    width: 400px;
+    width: 370px;
 }
 
 .item1 img {
     height: 310px;
-    width: 400px;
+    width: 100%;
 }
 
 .item2 {
     grid-area: item2;
-
+    height: 310px;
+    width: 370px;
 }
 
 .item2 img {
     height: 310px;
-    width: 400px;
+    width: 100%;
 }
 
 .item3 {
     grid-area: item3;
+    width: 370px;
 
 }
 
 .item3 img {
     height: 626px;
-    width: 400px;
+    width: 100%;
 }
 
 .item4 {
     grid-area: item4;
+    width: 370px;
 
 }
 
 .item4 img {
     height: 310px;
-    width: 400px;
+    width: 100%;
 }
 
 .item5 {
     grid-area: item5;
-
+    width: 370px;
 }
 
 .item5 img {
     height: 310px;
-    width: 400px;
+    width: 100%;
 }
 
 .item6 {
     grid-area: item6;
+    width: 370px;
 
 }
 
 .item6 img {
     height: 310px;
-    width: 400px;
+    width: 100%;
 }
 
 .item7 {
     grid-area: item7;
+    width: 370px;
 
 }
 
 .item7 img {
     height: 310px;
-    width: 400px;
+    width: 100%;
 }
 
 
@@ -550,9 +558,7 @@ body {
 }
 
 .btn2 {
-    position: absolute;
-    left: 222px;
-    top: 1px;
+    margin-bottom: 10px;
     background-color: #95E1D3 !important;
     border: 2px solid #95E1D3 !important;
 
@@ -578,4 +584,512 @@ body {
 .ml {
     margin-left: 20px;
     font-size: 14px;
+}
+
+
+
+@media (max-width:1610px) {
+    .cardimg1 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .cardimg2 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width:1560px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item3 {
+        height: 310px;
+    }
+
+    .item3 img {
+        height: 100%;
+    }
+}
+
+
+@media (max-width:1200px) {
+
+    .ipad {
+        width: 500px;
+        position: absolute;
+        left: 250px;
+        top: 285px;
+    }
+    
+    .iphone {
+        width: 300px;
+        position: absolute;
+        left: 630px;
+        top: 3450px;
+        z-index: 1000;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content div {
+        width: 290px;
+    }
+
+    .content img {
+        width: 100%;
+    }
+    
+    .fon {
+        height: 390px;
+    }
+
+    .gray__bgc {
+        height: 400px;
+        padding-left: 60px;
+    }
+    
+}
+
+@media (max-width:1152px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item3 {
+        height: 300px;
+    }
+
+    .item3 img {
+        height: 100%;
+    }
+
+    .ipad {
+        width: 500px;
+        position: absolute;
+        left: 250px;
+        top: 285px;
+    }
+    
+    .iphone {
+        width: 300px;
+        position: absolute;
+        left: 630px;
+        top: 3500px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:993px) {
+
+    .ipad {
+        width: 450px;
+        position: absolute;
+        left: 100px;
+        top: 320px;
+    }
+    
+    .iphone {
+        width: 250px;
+        position: absolute;
+        left: 410px;
+        top: 3750px;
+        z-index: 1000;
+    }
+
+    .gray__bgc {
+        height: 620px;
+        padding-left: 130px;
+    }
+
+    .author {
+        height: 1000px;
+    }
+
+    .author2 {
+        height: 1000px;
+    }
+
+    .fon {
+        height: 560px;
+    }
+
+    .form {
+        width: 500px;
+    }
+}
+
+@media (max-width:669px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 50px;
+        top: 410px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 300px;
+        top: 3800px;
+        z-index: 1000;
+    }
+
+    .gray__bgc {
+        height: 620px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:613px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 50px;
+        top: 410px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 300px;
+        top: 3870px;
+        z-index: 1000;
+    }
+
+    .creative {
+        font-size: 30px;
+    }
+
+    .welcome {
+
+        font-size: 60px;
+    }
+}
+
+@media (max-width:601px) {
+    .fon {
+        height: 960px;
+    }
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 150px;
+    }
+
+    .author {
+        height: 1200px;
+    }
+
+    .author2 {
+        height: 1200px;
+    }
+
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 50px;
+        top: 410px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 300px;
+        top: 4370px;
+        z-index: 1000;
+    }
+}
+
+
+@media (max-width:580px) {
+    .content div {
+        width: 100%;
+    }
+
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width:543px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 20px;
+        top: 410px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 250px;
+        top: 4400px;
+        z-index: 1000;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 120px;
+    }
+}
+
+@media (max-width:479px) {
+    .ipad {
+        width: 350px;
+        position: absolute;
+        left: 20px;
+        top: 410px;
+    }
+    
+    .iphone {
+        width: 190px;
+        position: absolute;
+        left: 250px;
+        top: 4530px;
+        z-index: 1000;
+    }
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 90px;
+    }
+}
+
+@media (max-width:445px) {
+    .ipad {
+        width: 300px;
+        position: absolute;
+        left: 10px;
+        top: 450px;
+    }
+    
+    .iphone {
+        width: 150px;
+        position: absolute;
+        left: 210px;
+        top: 4630px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width:391px) {
+    .ipad {
+        width: 300px;
+        position: absolute;
+        left: 10px;
+        top: 450px;
+    }
+    
+    .iphone {
+        width: 150px;
+        position: absolute;
+        left: 210px;
+        top: 4710px;
+        z-index: 1000;
+    }
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 50px;
+    }
+
+    .cardimg1 {
+        width: 250px;
+    }
+
+    .project1, .project2, .project3 {
+        width: 250px;
+    }
+
+    .border {
+        width: 250px;
+    }
+
+    .pos {
+        width: 250px;
+    }
+
+    .text1 {
+        width: 250px;
+    }
+
+    .cen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardimg2 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .project4, .project5, .project6 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .border4 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pos4 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .text4 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .m {
+        margin-left: 50px;
+    }
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 30px;
+    }
+
+    .border4:hover .icon__in__proj1 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 115px;
+        left: 50px;
+    }
+    
+    .border4:hover .icon__in__proj2 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 115px;
+        left: 100px;
+    }
+    
+    .border4:hover .icon__in__proj3 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 115px;
+        left: 150px;
+    }
+}
+
+
+@media (max-width:366px) {
+    .ipad {
+        width: 300px;
+        position: absolute;
+        left: -10px;
+        top: 450px;
+    }
+    
+    .iphone {
+        width: 150px;
+        position: absolute;
+        left: 190px;
+        top: 4710px;
+        z-index: 1000;
+    }
+
+    .m {
+        margin-left: 20px;
+    }
+
+    .block {
+        display: none;
+    }
+}
+
+@media (max-width:340px) {
+    .ipad {
+        width: 260px;
+        position: absolute;
+        left: -30px;
+        top: 490px;
+    }
+    
+    .iphone {
+        width: 120px;
+        position: absolute;
+        left: 150px;
+        top: 4740px;
+        z-index: 1000;
+    }
+
+    .m {
+        margin-left: 0px;
+    }
+
+    .gray__bgc {
+        height: 1250px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:289px) {
+    .ipad {
+        width: 260px;
+        position: absolute;
+        left: -30px;
+        top: 490px;
+    }
+    
+    .iphone {
+        width: 120px;
+        position: absolute;
+        left: 150px;
+        top: 4860px;
+        z-index: 1000;
+    }
+
+    .creative {
+        font-size: 25px;
+    }
+
+    .welcome {
+
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width:289px) {
+    .ipad {
+        width: 260px;
+        position: absolute;
+        left: -30px;
+        top: 490px;
+    }
+    
+    .iphone {
+        width: 120px;
+        position: absolute;
+        left: 150px;
+        top: 4885px;
+        z-index: 1000;
+    }
 }
