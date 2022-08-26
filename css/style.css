@@ -387,6 +387,7 @@ body {
 
 
 .content { 
+    margin-left: 15px;
     width: 100%; 
     display: grid;
     grid-template-areas: 
