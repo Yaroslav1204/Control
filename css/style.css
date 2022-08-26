@@ -608,17 +608,14 @@ body {
 }
 
 @media (max-width:1560px) {
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .content div {
+        width: 350px;
     }
-    .item3 {
-        height: 310px;
-    }
+}
 
-    .item3 img {
-        height: 100%;
+@media (max-width:1400px) {
+    .content div {
+        width: 300px;
     }
 }
 
